@@ -47,7 +47,7 @@ export const HeaderWrapperNavItem = styled.a `
   color: #555;
   font-size: 14px;
 `
-export const HeaderWrapperNavItem_aboutUs = styled.div `
+export const HeaderWrapperNavItemAboutUs = styled.div `
     cursor: pointer;
     position: relative;
     width: 110px;
@@ -58,9 +58,9 @@ export const HeaderWrapperNavItem_aboutUs = styled.div `
     font-size: 14px;
 `
 
-export const HeaderWrapperNavItem_list = styled.div `
+export const HeaderWrapperNavItemList = styled.div `
   position: absolute;
-  top: 60px;
+  top: 40px;
   left: 0;
   width: 110px;
   height: 129px;
@@ -71,9 +71,11 @@ export const HeaderWrapperNavItem_list = styled.div `
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 2px #eee;
   box-shadow: 0 1px 2px #eee;
-  background: green;
+  /* background: green; */
+  display: none;
+  
 `
-export const HeaderWrapperNavItem_list_item = styled.a `
+export const HeaderWrapperNavItemListItem = styled.a `
   width: 88px;
   height: 30px;
   display: block;
@@ -82,4 +84,7 @@ export const HeaderWrapperNavItem_list_item = styled.a `
   margin-top: 8px;
   font-size: 16px;
   color: #555;
+  &:hover {
+    color: black;
+  }
 `
