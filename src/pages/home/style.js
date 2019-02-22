@@ -53,3 +53,27 @@ export const HomeWrapperTopRight = styled.div `
   background: url(${homeTopRightPic}) no-repeat;
   background-size: contain;
 `
+
+export const SpecialRed = styled.div `
+  width: 100%;
+  height: 830px;
+  background-color: #ff2741;
+`
+
+export const SpecialGray = styled.div `
+  width: 100%;
+  height: 830px;
+  background-color: #fbfbfb;
+`
+
+export const VideoItem = styled.div `
+  width: 100%;
+  height: 707px;
+  background-color: white;
+`
+
+export const Video = styled.div `
+  width: 100%;
+  height: 810px;
+  background-color: #ff2741;
+`

@@ -4,6 +4,7 @@ import store from './store'
 import Header from './common/header'
 import { GlobalStyle } from './style'
 import Home from './pages/home';
+import ButtomInfo from './common/bottom'
 
 
 
@@ -15,6 +16,7 @@ class App extends Component {
           <GlobalStyle/>
           <Header/>
           <Home/>
+          <ButtomInfo/>
         </div>
       </Provider>
     );

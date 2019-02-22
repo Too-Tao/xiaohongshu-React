@@ -6,7 +6,11 @@ import {
   HomeWrapperTopRight,
   HomeWrapperTopLeftH1,
   HomeWrapperTopLeftAfter,
-  HomeWrapperTopLeftPic
+  HomeWrapperTopLeftPic,
+  SpecialRed,
+  SpecialGray,
+  VideoItem,
+  Video
 } from './style'
 
 export default class Home extends Component {
@@ -23,6 +27,14 @@ export default class Home extends Component {
             <HomeWrapperTopRight>
             </HomeWrapperTopRight>
           </HomeWrapperTop>
+          <SpecialRed>
+          </SpecialRed>
+          <SpecialGray>
+          </SpecialGray>
+          <VideoItem>
+          </VideoItem>
+          <Video>
+          </Video>
         </HomeWrapper>
       </div>
     )

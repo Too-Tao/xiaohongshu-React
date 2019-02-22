@@ -7,8 +7,9 @@ export const HeaderWrapper = styled.div `
   position: fixed;
   top: 0;
   left: 0;
-  /* background: green; */
+  background: white;
   box-shadow: 0 2px 6px 0 rgba(0,0,0,0.04);
+  z-index:999;
 `
 export const HeaderWrapperInner = styled.div `
   /* overflow: hidden; */
